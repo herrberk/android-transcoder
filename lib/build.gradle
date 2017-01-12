@@ -34,7 +34,7 @@ publish {
     artifactId = 'android-transcoder'
     version = '0.1.10-SNAPSHOT'
     licences = ['Apache-2.0']
-    website = 'https://github.com/ypresto/android-transcoder'
+    website = 'https://github.com/herrberk/android-transcoder'
     autoPublish = false
     dryRun = false
 }
