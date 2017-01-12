@@ -46,7 +46,7 @@ public class AvcCsdUtils {
 
         byte spsNalData = prefixedSpsBuffer.get();
         if (spsNalData != AVC_SPS_NAL && spsNalData != AVC_SPS_NAL_2 && spsNalData != AVC_SPS_NAL_3) {
-            throw new IllegalStateException("Got non SPS NAL data.");
+            throw new IllegalStateException("DARN Error modified by Berk, Got non SPS NAL data.");
         }
 
         return prefixedSpsBuffer.slice();
